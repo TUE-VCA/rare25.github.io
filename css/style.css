@@ -73,9 +73,48 @@ h2{text-align:center!important;margin-top:50px!important;font-weight:200!importa
 
 .resume-img{margin-right: 5px; display: block; -moz-box-sizing: border-box; box-sizing: border-box; width: 30px; height: 30px; background: url(../img/download-cloud-light.svg) no-repeat; }
 
-button{  background: url(../img/sun.svg) no-repeat;  color: transparent;  box-shadow: none;  border: none;  width: 50px;  height: 50px;  background-position: center;  position: absolute;  cursor: pointer;  }
+/* General button styles for all buttons */
+button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
 
-.light-mode button{background: url(../img/moon.svg) no-repeat; background-position: center;}
+/* Specific button style for subscribe button */
+.subscribe-button {
+    padding: 16px 60px;
+    border: none;
+    border-radius: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Icon button style (sun/moon button) */
+button.icon-button {
+    background: url(../img/sun.svg) no-repeat center center;
+    color: transparent;
+    box-shadow: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* Light mode button with moon icon */
+.light-mode button.icon-button {
+    background: url(../img/moon.svg) no-repeat center center;
+}
+
 
 button:focus {outline:0;}
 
