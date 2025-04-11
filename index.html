@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" shrink-to-fit="no">
+    <meta content="Challenge website for RARE 2025" name="description">
+    <meta content="Cris Claessens https://github.com/cclaess" name="author">
+    <title>RARE 2025 | EndoVis, MICCAI 2025, Deajeon, South-Korea</title>
+
+    <link href="img/icon.ico" rel="shortcut icon"/>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-header">
+        <button onclick="dayNightToggle()">Toggle dark mode</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="description_and_phases.html">Tasks and Phases</a></li>
+                <li><a href="evaluation.html">Timeline and Evaluation</a></li>
+                <li><a href="datasets.html">Datasets</a></li>
+                <li><a href="organizers.html">Organizers</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container vertical-center">
+        <div class="row">
+            <div class="center">
+                <h1>RARE25: Recognition of Anomalies in Low-Prevalance Cancer</h1>
+                <p class="title-desc center">Challenge at MICCAI 2025, Deajeon, South-Korea, and part of <a href="https://opencas.dkfz.de/endovis/category/challenges/">EndoVis</a> </p>
+            </div>
+            <img class="center col-10 col-sm-10 col-lg-4 col-md-4" src="img/logo_pp.svg" style="object-fit: cover; width: 70%;">
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="center col-10 col-sm-10 col-lg-8 col-md-8">
+                <h2>&#10067; The Clinical Problem &#10067;</h2>
+                <p>Early-stage cancers are difficult to detect in routine clinical practice. They often present with subtle or non-specific signs and 
+                    are easily missed among the many normal or benign findings seen every day. Catching these cases early is crucial, as timely diagnosis 
+                    can significantly improve patient outcomes (<a href=https://www.nature.com/articles/nrc1041>Etzioni <i>et al.</i>, 2003</a>). However, 
+                    these cancers are rare, and their subtle features make them hard to distinguish—even for experienced clinicians. This rarity poses a 
+                    major challenge when developing automated tools to support diagnosis. Most data comes from normal or non-cancerous cases, making it 
+                    difficult to train models that can reliably identify the few critical anomalies without being overwhelmed by the common findings.</p>    
+                
+                <h2>&#128202; The Need for a Benchmark &#128202;</h2>
+                <p>Given the difficulty of detecting rare and subtle early-stage cancers, there is a pressing need for well-designed tools to support 
+                    clinicians. Computer-aided detection (CADe) systems hold promise—but developing and evaluating these systems in low-prevalence settings 
+                    remains a major hurdle. In real-world clinical environments, early cancers are vastly outnumbered by normal or benign findings. This 
+                    imbalance can skew model performance and lead to misleading results if not properly addressed during development 
+                    (<a href=https://www.sciencedirect.com/science/article/pii/S1361841525000520>Godau <i>et al.</i>, 2025</a>). Systems trained on 
+                    artificially balanced datasets may appear accurate in testing but often fail in clinical practice, where the true distribution is heavily 
+                    skewed. Without rigorous benchmarking, CADe systems risk two major pitfalls: being too sensitive and generating a flood of false 
+                    positives, or being too conservative and missing early cancers. Striking the right balance between sensitivity and specificity is 
+                    essential. That’s why a carefully constructed benchmark is crucial—to provide a realistic, standardized way to evaluate performance under 
+                    conditions that mirror the clinical reality. This challenge aims to fill that gap.</p>
+                
+                <h2>&#127919; The RARE 2025 Challenge &#127919;</h2>
+                <p>The RARE 2025 Challenge focuses on building a classification system that can accurately detect early-stage cancer in a real-world, 
+                    low-prevalence setting—specifically, in patients with Barrett’s Esophagus (BE). BE is a condition where the lining of the esophagus 
+                    changes, increasing the risk of developing cancer. During routine endoscopic surveillance, early signs of cancer in BE can be very subtle 
+                    and are often missed. Yet catching these changes early is critical. When found in time, patients can be treated with a simple endoscopic 
+                    procedure, with long-term success rates above 90% 
+                    (<a href=https://www.sciencedirect.com/science/article/pii/S0016508513015965?via%3Dihub>Pech <i>et al.</i>, 2014</a>). But if these early 
+                    signs are missed and the disease progresses, outcomes become much worse—with five-year survival rates dropping to around 15% 
+                    (<a href=https://www.cancer.org/cancer/types/esophagus-cancer/detection-diagnosis-staging/survival-rates.html>American Cancer Society, 2025</a>). 
+                    Despite these high stakes, the prevalence of early neoplasia during surveillance of BE patients is exceptionally low—typically below 1% 
+                    (<a href=https://www.nejm.org/doi/full/10.1056/NEJMoa1103042>Hvid-Jensen <i>et al.</i>, 2011</a>). This makes it especially difficult to gather 
+                    enough data for model training and evaluation, and increases the risk of systems being either too cautious or too aggressive. This challenge is 
+                    designed to address exactly that. Participants are asked to develop models that can detect these rare but vital cases—without 
+                    overwhelming clinicians with false alarms. Success in this task means building systems that are not just 
+                    accurate in theory, but practical and trustworthy in the clinic.</p>
+                
+                    <h2>&#127942; Prizes &#127942;</h2>
+                <p>All the participating teams will be invited to <b>contribute to the research paper and be listed as authors on the forthcoming journal 
+                    publication</b> summarizing the outcomes of our challenge.</p>
+                <p>Additionally, the top 5 teams will receive the following prizes:</p>
+
+                <p>&#129351; 1st place: <b>€tba</b></p>
+                <p>&#129352; 2nd place: <b>€tba</b></p>
+                <p>&#129353; 3rd place: <b>€tba</b></p>
+                <p>&#127941; 4th place: <b>€tba</b></p>
+                <p>&#127941; 5th place: <b>€tba</b></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/load.js" type="text/javascript"></script>
+    
+</body>
+</html>

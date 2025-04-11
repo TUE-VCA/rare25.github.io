@@ -1,0 +1,88 @@
+<svg class="logo-svg" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+<?xml-stylesheet type="text/css" href="styles.css" ?>
+    <!-- Updated Grid of 7 rows x 9 columns -->
+    <!-- Spacing: 10 units -->
+    <!-- Circle radius: 40 -->
+    <!-- Special: row 3, col 6 (0-based) = red -->
+
+    <!-- Loop through rows (0–6) and columns (0–8) -->
+    <!-- cx = col * (2r + spacing) + r -->
+    <!-- cy = row * (2r + spacing) + r -->
+
+    <!-- Row 0 -->
+    <circle class="black-dot" cx="50" cy="50" r="40" />
+    <circle class="black-dot" cx="130" cy="50" r="40" />
+    <circle class="black-dot" cx="210" cy="50" r="40" />
+    <circle class="black-dot" cx="290" cy="50" r="40" />
+    <circle class="black-dot" cx="370" cy="50" r="40" />
+    <circle class="black-dot" cx="450" cy="50" r="40" />
+    <circle class="black-dot" cx="530" cy="50" r="40" />
+    <circle class="black-dot" cx="610" cy="50" r="40" />
+    <circle class="black-dot" cx="690" cy="50" r="40" />
+
+    <!-- Row 1 -->
+    <circle class="black-dot" cx="50" cy="130" r="40" />
+    <circle class="black-dot" cx="130" cy="130" r="40" />
+    <circle class="black-dot" cx="210" cy="130" r="40" />
+    <circle class="black-dot" cx="290" cy="130" r="40" />
+    <circle class="black-dot" cx="370" cy="130" r="40" />
+    <circle class="black-dot" cx="450" cy="130" r="40" />
+    <circle class="black-dot" cx="530" cy="130" r="40" />
+    <circle class="black-dot" cx="610" cy="130" r="40" />
+    <circle class="black-dot" cx="690" cy="130" r="40" />
+
+    <!-- Row 2 -->
+    <circle class="black-dot" cx="50" cy="210" r="40" />
+    <circle class="black-dot" cx="130" cy="210" r="40" />
+    <circle class="black-dot" cx="210" cy="210" r="40" />
+    <circle class="black-dot" cx="290" cy="210" r="40" />
+    <circle class="black-dot" cx="370" cy="210" r="40" />
+    <circle class="black-dot" cx="450" cy="210" r="40" />
+    <circle class="black-dot" cx="530" cy="210" r="40" />
+    <circle class="black-dot" cx="610" cy="210" r="40" />
+    <circle class="black-dot" cx="690" cy="210" r="40" />
+
+    <!-- Row 3 -->
+    <circle class="black-dot" cx="50" cy="290" r="40" />
+    <circle class="black-dot" cx="130" cy="290" r="40" />
+    <circle class="black-dot" cx="210" cy="290" r="40" />
+    <circle class="black-dot" cx="290" cy="290" r="40" />
+    <circle class="black-dot" cx="370" cy="290" r="40" />
+    <circle class="black-dot" cx="450" cy="290" r="40" />
+    <circle class="red-dot" cx="530" cy="290" r="40" />
+    <circle class="black-dot" cx="610" cy="290" r="40" />
+    <circle class="black-dot" cx="690" cy="290" r="40" />
+
+    <!-- Row 4 -->
+    <circle class="black-dot" cx="50" cy="370" r="40" />
+    <circle class="black-dot" cx="130" cy="370" r="40" />
+    <circle class="black-dot" cx="210" cy="370" r="40" />
+    <circle class="black-dot" cx="290" cy="370" r="40" />
+    <circle class="black-dot" cx="370" cy="370" r="40" />
+    <circle class="black-dot" cx="450" cy="370" r="40" />
+    <circle class="black-dot" cx="530" cy="370" r="40" />
+    <circle class="black-dot" cx="610" cy="370" r="40" />
+    <circle class="black-dot" cx="690" cy="370" r="40" />
+
+    <!-- Row 5 -->
+    <circle class="black-dot" cx="50" cy="450" r="40" />
+    <circle class="black-dot" cx="130" cy="450" r="40" />
+    <circle class="black-dot" cx="210" cy="450" r="40" />
+    <circle class="black-dot" cx="290" cy="450" r="40" />
+    <circle class="black-dot" cx="370" cy="450" r="40" />
+    <circle class="black-dot" cx="450" cy="450" r="40" />
+    <circle class="black-dot" cx="530" cy="450" r="40" />
+    <circle class="black-dot" cx="610" cy="450" r="40" />
+    <circle class="black-dot" cx="690" cy="450" r="40" />
+
+    <!-- Row 6 -->
+    <circle class="black-dot" cx="50" cy="530" r="40" />
+    <circle class="black-dot" cx="130" cy="530" r="40" />
+    <circle class="black-dot" cx="210" cy="530" r="40"/>
+    <circle class="black-dot" cx="290" cy="530" r="40" />
+    <circle class="black-dot" cx="370" cy="530" r="40" />
+    <circle class="black-dot" cx="450" cy="530" r="40" />
+    <circle class="black-dot" cx="530" cy="530" r="40" />
+    <circle class="black-dot" cx="610" cy="530" r="40" />
+    <circle class="black-dot" cx="690" cy="530" r="40" />
+</svg>
