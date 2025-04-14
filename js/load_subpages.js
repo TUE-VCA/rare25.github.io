@@ -64,6 +64,8 @@ function checkDayNight() {
     updateSvgColors();
 }
 
+checkDayNight()
+
 function animateValue(id, start, end, duration) {
     let range = end - start;
     let current = start;
